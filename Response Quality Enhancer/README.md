@@ -40,8 +40,6 @@ The LLM should be able to interpret and explain the prompt's purpose and functio
    "Please always consider the following quality criteria when responding: [Insert the content of prompt.txt here]"
 4. Click "Save" at the bottom of the page.
 
-Note: While Custom Instructions influence ChatGPT's responses, they may not be as powerful as modifying the core system prompt.
-
 ### For Claude
 
 Currently, Claude does not have an option to set persistent custom instructions across all chats. To use this prompt with Claude:
