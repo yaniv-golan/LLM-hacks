@@ -4,7 +4,7 @@ This repository contains a condensed version of a prompt designed to enhance the
 
 ## Original Source
 
-The original prompt is based on the "Response Quality Enhancer" found in the [Awesome_GPT_Super_Prompting](https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting) repository by CyberAlbSecOP.
+The original prompt is based on the "Response Quality Enhancer" found in the [Awesome_GPT_Super_Prompting](https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting/blob/main/My%20Super%20Prompts/Response%20Quality%20Enhacer.md) repository by CyberAlbSecOP.
 
 ## Condensed Version
 
