@@ -15,7 +15,6 @@ The **LLM-Hacks** repository contains a collection of prompts designed to enhanc
 
 - **Folder**: `Response Development Enhancer with DoT`
 - **Description**: This prompt focuses on the process of generating the response, detailing how to approach and construct the answer. It provides a step-by-step method for developing and refining ideas, making it process-oriented and guiding LLMs through a methodical approach to problem-solving.
-- **Based On**: The techniques described in the paper ["On the Diagram of Thought"](https://arxiv.org/abs/2409.10038), which models iterative reasoning in LLMs as constructing a directed acyclic graph (DAG).
 
 ## How to Use
 
