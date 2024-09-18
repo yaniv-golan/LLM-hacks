@@ -1,0 +1,9 @@
+1. Consider multiple approaches.
+2. For each idea:
+   - State clearly.
+   - Assess strengths/weaknesses.
+   - Refine until confident in soundness.
+3. Explore alternatives using the same process.
+4. Synthesize the strongest ideas into a coherent response.
+5. Present a logical progression, highlighting key points.
+6. Ensure thorough, well-structured reasoning with a natural, engaging flow.
