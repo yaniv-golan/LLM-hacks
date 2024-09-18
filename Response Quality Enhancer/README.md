@@ -67,9 +67,9 @@ The condensation technique involved:
 
 If you're unsure about what this condensed prompt does, you can ask any LLM the following:
 
-**Explain this prompt:**
-
 ```
+Explain this prompt:
+
 [Insert the condensed prompt text from prompt.txt here]
 ```
 
@@ -99,7 +99,8 @@ Currently, Claude does not have an option to set persistent custom instructions 
 2. Begin your interaction by pasting the following:
 
    ```
-   For all responses in this conversation, please adhere to the following quality criteria: [Insert the content of prompt.txt here]
+   For all responses in this conversation, please adhere to the following quality criteria:
+   [Insert the content of prompt.txt here]
    ```
 
 3. Follow this with your actual query or request.
