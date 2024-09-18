@@ -1,0 +1,36 @@
+Prompts License (based on MIT License)
+
+Copyright (c) 2024 Yaniv Golan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this prompt ("the Prompt") and associated documentation files, to deal
+in the Prompt without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Prompt, and to permit persons to whom the Prompt is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Prompt.
+
+THE PROMPT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE PROMPT OR THE USE OR OTHER DEALINGS IN THE
+PROMPT.
+
+Additional Clauses for Prompts:
+
+1. "Prompt" in this license refers to the textual instruction or input designed 
+   to guide the behavior or output of language models or AI systems.
+
+2. Users of this Prompt acknowledge that the output generated using this Prompt 
+   may vary depending on the specific AI model, version, or implementation used.
+
+3. The copyright holder does not claim ownership of any AI-generated content 
+   produced using this Prompt, but requires attribution of the Prompt itself 
+   when used to generate content for public distribution.
+
+4. Users are responsible for ensuring that their use of this Prompt and any 
+   resulting AI-generated content complies with applicable laws and regulations.
