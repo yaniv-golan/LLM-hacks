@@ -6,8 +6,8 @@ This repository contains a collection of prompts and techniques designed to enha
 
 - **Deductive Reasoning Enhancer**: Tools to improve the deductive reasoning capabilities of LLMs.
 - **Response Development Enhancer**: Methods to guide LLMs through a structured approach to response generation.
-- **Response Quality Enhancer Plus**: An advanced prompt for improving overall response quality and reasoning.
 - **Response Quality Enhancer**: A condensed version of quality enhancement techniques for token-efficient applications.
+- **Response Quality Enhancer Plus**: An advanced prompt for improving overall response quality and reasoning.
 
 ## Key Files
 
@@ -25,15 +25,15 @@ This repository contains a collection of prompts and techniques designed to enha
    - Encourages consideration of multiple perspectives
    - Implements ideas from "On the Diagram of Thought" paper
 
-3. **Response Quality Enhancer Plus**
-   - Builds upon the original Response Quality Enhancer
-   - Incorporates Chain-of-Thought (CoT) principles
-   - Ensures logical consistency and comprehensive guidance
-
-4. **Response Quality Enhancer**
+3. **Response Quality Enhancer**
    - Condensed version for minimal token usage
    - Emphasizes qualities of the final response
    - Provides a checklist of criteria for self-evaluation
+
+4. **Response Quality Enhancer Plus**
+   - Builds upon the original Response Quality Enhancer
+   - Incorporates Chain-of-Thought (CoT) principles
+   - Ensures logical consistency and comprehensive guidance
 
 5. **Merged Best Practice Prompt**
    - Combines key aspects of all enhancers
