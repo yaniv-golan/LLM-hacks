@@ -1,52 +1,70 @@
-# LLM-Hacks
+# LLM-hacks
 
-## Overview
+This repository contains a collection of prompts and techniques designed to enhance the capabilities of Large Language Models (LLMs). Our goal is to improve various aspects of LLM performance, from reasoning to response quality.
 
-The **LLM-Hacks** repository contains a collection of prompts designed to enhance the performance of Large Language Models (LLMs). These prompts aim to improve both the quality of the responses and the reasoning process behind them. They can be used independently or combined to maximize the effectiveness of the LLM's outputs.
+## Repository Structure
 
-## Contents
+- **Deductive Reasoning Enhancer**: Tools to improve the deductive reasoning capabilities of LLMs.
+- **Response Development Enhancer**: Methods to guide LLMs through a structured approach to response generation.
+- **Response Quality Enhancer Plus**: An advanced prompt for improving overall response quality and reasoning.
+- **Response Quality Enhancer**: A condensed version of quality enhancement techniques for token-efficient applications.
 
-### 1. Response Quality Enhancer with CoT
+## Key Files
 
-- **Folder**: `Response Quality Enhancer with CoT`
-- **Description**: This prompt focuses on the qualities of the final response, emphasizing what the answer should be like. It provides a checklist of criteria for self-evaluation, making it outcome-oriented and aiming for an ideal response based on specific attributes.
+- `merged_best_practice_prompt.txt`: A comprehensive prompt that combines best practices for LLM interaction, including deductive reasoning, response development, and quality enhancement techniques.
 
-### 2. Response Development Enhancer with DoT
+## Key Features
 
-- **Folder**: `Response Development Enhancer with DoT`
-- **Description**: This prompt focuses on the process of generating the response, detailing how to approach and construct the answer. It provides a step-by-step method for developing and refining ideas, making it process-oriented and guiding LLMs through a methodical approach to problem-solving.
+1. **Deductive Reasoning Enhancer**
+   - Empowers LLMs to perform accurate deductive reasoning
+   - Applies reasoning internally without exposing steps
+   - Provides clear answers with logical explanations
 
-## How to Use
+2. **Response Development Enhancer**
+   - Guides LLMs through a systematic approach to problem-solving
+   - Encourages consideration of multiple perspectives
+   - Implements ideas from "On the Diagram of Thought" paper
 
-The prompts can be used **separately** or **combined** depending on your needs:
+3. **Response Quality Enhancer Plus**
+   - Builds upon the original Response Quality Enhancer
+   - Incorporates Chain-of-Thought (CoT) principles
+   - Ensures logical consistency and comprehensive guidance
 
-### Using the Prompts Separately
+4. **Response Quality Enhancer**
+   - Condensed version for minimal token usage
+   - Emphasizes qualities of the final response
+   - Provides a checklist of criteria for self-evaluation
 
-- **Response Quality Enhancer with CoT**: Ideal when the focus is on enhancing the final output's quality, ensuring responses meet high standards of relevance, specificity, and user engagement.
-- **Response Development Enhancer with DoT**: Best suited for guiding the LLM through a structured reasoning process, which is crucial for complex problem-solving tasks requiring deep analysis.
+5. **Merged Best Practice Prompt**
+   - Combines key aspects of all enhancers
+   - Provides a unified approach to improving LLM interactions
+   - Ideal for users seeking a comprehensive solution
 
-### Combining the Prompts
+## Usage
 
-To maximize the effectiveness of the LLM, you can combine both prompts:
+Each sub-directory contains specific instructions on how to use the prompts and techniques. Generally, you can incorporate these prompts into your LLM interactions by:
 
-1. **Integration**: Merge the instructions from both `prompt.txt` files into a single prompt.
-2. **Application**: This combined prompt will guide the LLM through a structured reasoning process while also ensuring the final response meets high-quality standards.
-3. **Benefits**:
-   - **Comprehensive Development**: Encourages thorough analysis and refinement of ideas.
-   - **High-Quality Output**: Ensures the final response is user-centric, relevant, and engaging.
-   - **Efficiency**: Streamlines the response generation process by embedding quality checks within the reasoning steps.
+1. Using them as custom instructions (for platforms that support this feature)
+2. Pasting the prompt at the beginning of your conversation with the LLM
+
+For detailed usage instructions, please refer to the README.md file in each sub-directory.
+
+To use the merged best practice prompt, simply include the content of `merged_best_practice_prompt.txt` at the beginning of your LLM interaction or in the custom instructions section where available.
+
+## Contributing
+
+We welcome contributions to improve and expand these LLM hacks. Please read our contributing guidelines (if available) before submitting pull requests.
 
 ## License
 
-This project is licensed under the terms specified in the `LICENSE` files included in each folder.
+This project is licensed under the terms of the LICENSE file in the root directory of this project.
 
-## Contribution
+## Acknowledgments
 
-Contributions are welcome! Please feel free to:
+- The "Response Quality Enhancer" is based on work from the [Awesome_GPT_Super_Prompting](https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting) repository by CyberAlbSecOP.
+- The "Response Development Enhancer" is inspired by the paper ["On the Diagram of Thought"](https://arxiv.org/abs/2409.10038).
+- The "Response Quality Enhancer Plus" incorporates concepts from the paper ["Chain of Thought Empowers Transformers to Solve Inherently Serial Problems"](https://arxiv.org/pdf/2402.12875) by Zhiyuan Li, Hong Liu, Denny Zhou, and Tengyu Ma.
 
-- **Suggest Improvements**: Share ideas to enhance the prompts or their effectiveness.
-- **Report Issues**: Inform us of any problems or inconsistencies you encounter.
-- **Submit Pull Requests**: Contribute directly to the project by adding new features or making adjustments.
+## Contact
 
-When contributing, ensure that any changes maintain the spirit of the original prompts and aim for clarity and efficiency.
-
+For questions and feedback, please open an issue in the GitHub repository.
