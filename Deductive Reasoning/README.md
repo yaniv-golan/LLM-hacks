@@ -44,11 +44,7 @@ To use this prompt:
 
 1. **Incorporate the Prompt into the LLM's Instructions**:
 
-   Include the prompt at the beginning of your interaction to guide the LLM's responses.
-
-   ```
-   [Insert the Deductive Reasoning Enhancer prompt here]
-   ```
+   Include [the prompt](prompt.txt) at the beginning of your interaction to guide the LLM's responses.
 
 2. **Interact with the LLM**:
 
